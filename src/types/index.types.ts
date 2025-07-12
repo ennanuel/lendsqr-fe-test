@@ -32,7 +32,7 @@ export type NavGroupProps = {
 
 export type HeadingProps = {
     children: string;
-}
+};
 
 export type FilterProps = {
     showFilters: boolean;
@@ -64,8 +64,8 @@ export type UserProps = {
     user: User | null;
 };
 
-export type UsersProps = {
-    users: User[]
+export type UsersListProps = {
+    users: User[];
 };
 
 export type UsersTableProps = {
