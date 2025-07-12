@@ -1,15 +1,18 @@
 "use client";
 
-import { UsersProps } from "@/types/index.types";
+import { UsersListProps } from "@/types/index.types";
 
-import { useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
-import { changeDateFormat } from "@/helpers";
 import UserOptions from "./UserOptions";
 
-export default function UsersList({ users }: UsersProps) {
+import { changeDateFormat } from "@/helpers";
+
+export default function UsersList({ users }: UsersListProps) {
     const router = useRouter();
+    const pathname = usePathname();
+
     const optionsContainerRef = useRef<HTMLUListElement>(null);
     const [idOfUserOptionToShow, setIdOfUserOptionToShow] = useState<string | null>(null);
     
@@ -34,6 +37,14 @@ export default function UsersList({ users }: UsersProps) {
 
         if (clickedOutsideModalRange) closeOptionsModal();
     };
+
+    useEffect(() => {
+        if (!users.length) return;
+        if (pathname.includes('/users')) {
+            const userIdToDisplayOption = users[1]?._id || users[0]?._id;
+            setIdOfUserOptionToShow(userIdToDisplayOption);
+        };
+    }, [pathname, users]);
 
     return (
         <tbody>
