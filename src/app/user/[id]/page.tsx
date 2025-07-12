@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function User() {
 
     return (
-        <div className="content">
+        <div className="user-page content">
             <Link href="/users" className="back-navigation">
                 <Image src={backArrow} width={30} height={30} alt="Back arrow icon" className="back-icon" />
                 <span>Back to Users</span>
