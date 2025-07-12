@@ -13,12 +13,17 @@ import FetchError from "./FetchError";
 
 import { clearAllUsers, storeUsersArray } from "@/helpers/db";
 import { fetchUsers } from "@/helpers";
+import { usePathname } from "next/navigation";
 
 const USER_LIMIT = 10;
 
 export default function Users() {
+    const pathname = usePathname();
+    const hidePagination = useMemo(() => pathname.includes('/users'), [pathname]);
+
     const [page, setPage] = useState(1);
     const [showFilters, setShowFilters] = useState(false);
+
     const [{ loading, error, data }, setFetchState] = useState<UserFetchState>({ loading: true, error: false, data: [] });
 
     const canNext = useMemo(() => (page * USER_LIMIT) < data.length, [data, page]);
@@ -43,7 +48,7 @@ export default function Users() {
     };
     function selectPage(pageNumber: number) {
         setPage(pageNumber);
-    }
+    };
 
     useEffect(() => {
         setFetchState((prev) => ({ ...prev, loading: true }));
@@ -57,23 +62,31 @@ export default function Users() {
             .finally(() => setFetchState((prev) => ({ ...prev, loading: false })));
     }, []);
 
+    useEffect(() => {
+        if(pathname.includes('/users')) setShowFilters(true);
+    }, [pathname])
+
     if (loading) return <Loading className="block" />;
     else if (error) return <FetchError className="block" />;
     return (
         <div className="users">
             <UsersTable users={users} openFilterDialog={openFilterDialog} />
             <Filter closeFilterDialog={closeFilterDialog} showFilters={showFilters} />
-            <Pagination 
-                canNext={canNext} 
-                canPrev={canPrev} 
-                currentPage={page}
-                nextPage={nextPage} 
-                prevPage={prevPage} 
-                selectPage={selectPage} 
-                limit={USER_LIMIT} 
-                total={data.length} 
-                pageLength={paginationLength}
-            />
+            {
+                !hidePagination ? 
+                    <Pagination 
+                        canNext={canNext} 
+                        canPrev={canPrev} 
+                        currentPage={page}
+                        nextPage={nextPage} 
+                        prevPage={prevPage} 
+                        selectPage={selectPage} 
+                        limit={USER_LIMIT} 
+                        total={data.length} 
+                        pageLength={paginationLength}
+                    /> :
+                    null
+            }
         </div>
     )
 };
