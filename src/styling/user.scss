@@ -352,3 +352,19 @@
         }
     }
 }
+
+.user-page {
+
+    .pagination-container {
+        position: fixed;
+        bottom: 20px;
+        left: 72px;
+        z-index: 10000;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        .pagination-container {
+            display: none;
+        }
+    }
+}
