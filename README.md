@@ -7,6 +7,7 @@
 - [lendsqr-fe-test](#)
   - [Table of Contents](#table-of-contents)
   - [Project Description](#project-description)
+  - [Routes](#routes)
   - [Features](#features)
   - [Live Demo](#live-demo)
   - [Tech Stack](#tech-stack)
