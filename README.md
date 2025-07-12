@@ -28,6 +28,13 @@ This repository contains a frontend assessment project for Lendsqr, mirroring a 
 
 The application is built using **Next.js** and **TypeScript**, with styles processed by **SCSS**.
 
+## Routes
+
+- **Sign In:** [/sign-in](https://emmanuel-ezema-lendsqr-fe-test.netlify.app/sign-in)
+- **Dashboard:** [/dashboard](https://emmanuel-ezema-lendsqr-fe-test.netlify.app/dashboard)
+- **Users:** [/sign-in](https://emmanuel-ezema-lendsqr-fe-test.netlify.app/users)
+- **User Details:** /user
+
 ## Features
 
 This project implements the following core features:
@@ -41,7 +48,7 @@ This project implements the following core features:
 
 ## Live Demo
 
-[Click here to view the live demo](https://emmanuel-ezema-lendsqr-fe-test.vercel.app)
+[Click here to view the live demo](https://emmanuel-ezema-lendsqr-fe-test.netlify.app)
 
 ## Tech Stack
 
