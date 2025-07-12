@@ -10,6 +10,7 @@ import Loading from "./Loading";
 import UserDetailsHeader from "./UserDetailsHeader";
 import UserInformations from "./UserInformations";
 import Heading from "./Heading";
+import MockPagination from "./MockPagination";
 
 import { getSingleUser } from "@/helpers/db";
 
@@ -50,6 +51,7 @@ export default function UserDetailsContainer() {
                 <UserDetailsHeader user={user} />
                 <UserInformations user={user} />
             </section>
+            <MockPagination />
         </div>
     )
 }
