@@ -1,0 +1,732 @@
+[
+  {
+    "_id": "68723253017d9d39f8e18874",
+    "organization": "Irorun",
+    "firstName": "Sanchez",
+    "lastName": "Bruce",
+    "phone": "08197562708",
+    "email": "sanchez@lendstar.com",
+    "dateJoined": "2025-02-18T01:03:25",
+    "status": "ACTIVE",
+    "balance": "₦768,481.28",
+    "accountNumber": 9374854822,
+    "bank": "First Bank",
+    "userTier": 1,
+    "details": [
+      [
+        "Personal Information",
+        [
+          [
+            "Full name",
+            "Sanchez Bruce"
+          ],
+          [
+            "Phone number",
+            "08197562708"
+          ],
+          [
+            "Email address",
+            "sanchez@outlook.com"
+          ],
+          [
+            "BVN",
+            "08703357346"
+          ],
+          [
+            "Gender",
+            "Male"
+          ],
+          [
+            "Marital status",
+            "Single"
+          ],
+          [
+            "Children",
+            "3"
+          ],
+          [
+            "Type of residence",
+            "One Bedroom Flat"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Education and Employment",
+        [
+          [
+            "Level of Education",
+            "Secondary School"
+          ],
+          [
+            "Employment status",
+            "Unemployed"
+          ],
+          [
+            "Sector of employment",
+            "Engineering"
+          ],
+          [
+            "Office email",
+            "sanchez@lendstar.com"
+          ],
+          [
+            "Monthly income",
+            "₦750,000.00 - ₦900,000.00"
+          ],
+          [
+            "Loan Repayment",
+            "₦31,046"
+          ]
+        ],
+        "cols-4"
+      ],
+      [
+        "Socials",
+        [
+          [
+            "Twitter",
+            "@sanchez_bruce"
+          ],
+          [
+            "Facebook",
+            "Sanchez Bruce"
+          ],
+          [
+            "Instagram",
+            "@sanchez_bruce"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Guarantor",
+        [
+          [
+            "Full name",
+            "Concepcion Franklin"
+          ],
+          [
+            "Phone number",
+            "08148731945"
+          ],
+          [
+            "Email address",
+            "concepcion@outlook.com"
+          ],
+          [
+            "Relationship",
+            "Mother"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "",
+        [
+          [
+            "Full name",
+            "Concepcion Mathews"
+          ],
+          [
+            "Phone number",
+            "08199467406"
+          ],
+          [
+            "Email address",
+            "concepcion@gmail.com"
+          ],
+          [
+            "Relationship",
+            "Husband"
+          ]
+        ],
+        "cols-5"
+      ]
+    ]
+  },
+  {
+    "_id": "6872325300c4715742e585a4",
+    "organization": "Irorun",
+    "firstName": "Dudley",
+    "lastName": "Gomez",
+    "phone": "08180124020",
+    "email": "dudley@lendstar.com",
+    "dateJoined": "2024-11-19T08:05:48",
+    "status": "ACTIVE",
+    "balance": "₦492,867.66",
+    "accountNumber": 9521364469,
+    "bank": "UBA",
+    "userTier": 1,
+    "details": [
+      [
+        "Personal Information",
+        [
+          [
+            "Full name",
+            "Dudley Gomez"
+          ],
+          [
+            "Phone number",
+            "08180124020"
+          ],
+          [
+            "Email address",
+            "dudley@gmail.com"
+          ],
+          [
+            "BVN",
+            "07227039758"
+          ],
+          [
+            "Gender",
+            "Female"
+          ],
+          [
+            "Marital status",
+            "Single"
+          ],
+          [
+            "Children",
+            "1"
+          ],
+          [
+            "Type of residence",
+            "One Bedroom Flat"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Education and Employment",
+        [
+          [
+            "Level of Education",
+            "Secondary School"
+          ],
+          [
+            "Employment status",
+            "Unemployed"
+          ],
+          [
+            "Sector of employment",
+            "Health"
+          ],
+          [
+            "Office email",
+            "dudley@lendstar.com"
+          ],
+          [
+            "Monthly income",
+            "₦200,000.00 - ₦400,000.00"
+          ],
+          [
+            "Loan Repayment",
+            "₦33,663"
+          ]
+        ],
+        "cols-4"
+      ],
+      [
+        "Socials",
+        [
+          [
+            "Twitter",
+            "@dudley_gomez"
+          ],
+          [
+            "Facebook",
+            "Dudley Gomez"
+          ],
+          [
+            "Instagram",
+            "@dudley_gomez"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Guarantor",
+        [
+          [
+            "Full name",
+            "Hancock Bernard"
+          ],
+          [
+            "Phone number",
+            "08162308520"
+          ],
+          [
+            "Email address",
+            "hancock@yahoo.com"
+          ],
+          [
+            "Relationship",
+            "Father"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "",
+        [
+          [
+            "Full name",
+            "Hancock Vance"
+          ],
+          [
+            "Phone number",
+            "08169362155"
+          ],
+          [
+            "Email address",
+            "hancock@gmail.com"
+          ],
+          [
+            "Relationship",
+            "Husband"
+          ]
+        ],
+        "cols-5"
+      ]
+    ]
+  },
+  {
+    "_id": "6872325331df3473654b6d97",
+    "organization": "Lendsqr",
+    "firstName": "Shelly",
+    "lastName": "Lester",
+    "phone": "08156365531",
+    "email": "shelly@lendsqr.com",
+    "dateJoined": "2025-04-01T11:23:53",
+    "status": "ACTIVE",
+    "balance": "₦999,257.26",
+    "accountNumber": 9459445536,
+    "bank": "UBA",
+    "userTier": 3,
+    "details": [
+      [
+        "Personal Information",
+        [
+          [
+            "Full name",
+            "Shelly Lester"
+          ],
+          [
+            "Phone number",
+            "08156365531"
+          ],
+          [
+            "Email address",
+            "shelly@outlook.com"
+          ],
+          [
+            "BVN",
+            "08425446525"
+          ],
+          [
+            "Gender",
+            "Male"
+          ],
+          [
+            "Marital status",
+            "Single"
+          ],
+          [
+            "Children",
+            "None"
+          ],
+          [
+            "Type of residence",
+            "Parent's Apartment"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Education and Employment",
+        [
+          [
+            "Level of Education",
+            "Secondary School"
+          ],
+          [
+            "Employment status",
+            "Unemployed"
+          ],
+          [
+            "Sector of employment",
+            "Health"
+          ],
+          [
+            "Office email",
+            "shelly@lendsqr.com"
+          ],
+          [
+            "Monthly income",
+            "₦200,000.00 - ₦400,000.00"
+          ],
+          [
+            "Loan Repayment",
+            "₦84,411"
+          ]
+        ],
+        "cols-4"
+      ],
+      [
+        "Socials",
+        [
+          [
+            "Twitter",
+            "@shelly_lester"
+          ],
+          [
+            "Facebook",
+            "Shelly Lester"
+          ],
+          [
+            "Instagram",
+            "@shelly_lester"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Guarantor",
+        [
+          [
+            "Full name",
+            "Lowe Lawson"
+          ],
+          [
+            "Phone number",
+            "08197006992"
+          ],
+          [
+            "Email address",
+            "lowe@gmail.com"
+          ],
+          [
+            "Relationship",
+            "Brother"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "",
+        [
+          [
+            "Full name",
+            "Lowe Gallegos"
+          ],
+          [
+            "Phone number",
+            "08155090500"
+          ],
+          [
+            "Email address",
+            "lowe@outlook.com"
+          ],
+          [
+            "Relationship",
+            "Brother"
+          ]
+        ],
+        "cols-5"
+      ]
+    ]
+  },
+  {
+    "_id": "687232531147e1f017495d5e",
+    "organization": "Irorun",
+    "firstName": "Carpenter",
+    "lastName": "Howell",
+    "phone": "08188725774",
+    "email": "carpenter@lendsqr.com",
+    "dateJoined": "2024-01-13T05:59:18",
+    "status": "ACTIVE",
+    "balance": "₦914,591.70",
+    "accountNumber": 9719792996,
+    "bank": "UBA",
+    "userTier": 3,
+    "details": [
+      [
+        "Personal Information",
+        [
+          [
+            "Full name",
+            "Carpenter Howell"
+          ],
+          [
+            "Phone number",
+            "08188725774"
+          ],
+          [
+            "Email address",
+            "carpenter@yahoo.com"
+          ],
+          [
+            "BVN",
+            "07387741630"
+          ],
+          [
+            "Gender",
+            "Female"
+          ],
+          [
+            "Marital status",
+            "Single"
+          ],
+          [
+            "Children",
+            "None"
+          ],
+          [
+            "Type of residence",
+            "Parent's Apartment"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Education and Employment",
+        [
+          [
+            "Level of Education",
+            "Secondary School"
+          ],
+          [
+            "Employment status",
+            "Employed"
+          ],
+          [
+            "Sector of employment",
+            "Engineering"
+          ],
+          [
+            "Office email",
+            "carpenter@lendsqr.com"
+          ],
+          [
+            "Monthly income",
+            "₦500,000.00 - ₦750,000.00"
+          ],
+          [
+            "Loan Repayment",
+            "₦84,102"
+          ]
+        ],
+        "cols-4"
+      ],
+      [
+        "Socials",
+        [
+          [
+            "Twitter",
+            "@carpenter_howell"
+          ],
+          [
+            "Facebook",
+            "Carpenter Howell"
+          ],
+          [
+            "Instagram",
+            "@carpenter_howell"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Guarantor",
+        [
+          [
+            "Full name",
+            "Camille Huff"
+          ],
+          [
+            "Phone number",
+            "08189421808"
+          ],
+          [
+            "Email address",
+            "camille@outlook.com"
+          ],
+          [
+            "Relationship",
+            "Brother"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "",
+        [
+          [
+            "Full name",
+            "Camille Santana"
+          ],
+          [
+            "Phone number",
+            "08194190617"
+          ],
+          [
+            "Email address",
+            "camille@gmail.com"
+          ],
+          [
+            "Relationship",
+            "Father"
+          ]
+        ],
+        "cols-5"
+      ]
+    ]
+  },
+  {
+    "_id": "687232533e4b1e6a6c68928c",
+    "organization": "Irorun",
+    "firstName": "Klein",
+    "lastName": "Good",
+    "phone": "08164654798",
+    "email": "klein@lendstar.com",
+    "dateJoined": "2024-03-13T06:25:51",
+    "status": "INACTIVE",
+    "balance": "₦356,867.98",
+    "accountNumber": 9622124683,
+    "bank": "Providus Bank",
+    "userTier": 3,
+    "details": [
+      [
+        "Personal Information",
+        [
+          [
+            "Full name",
+            "Klein Good"
+          ],
+          [
+            "Phone number",
+            "08164654798"
+          ],
+          [
+            "Email address",
+            "klein@outlook.com"
+          ],
+          [
+            "BVN",
+            "09841102973"
+          ],
+          [
+            "Gender",
+            "Male"
+          ],
+          [
+            "Marital status",
+            "Single"
+          ],
+          [
+            "Children",
+            "2"
+          ],
+          [
+            "Type of residence",
+            "Parent's Apartment"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Education and Employment",
+        [
+          [
+            "Level of Education",
+            "B.Sc"
+          ],
+          [
+            "Employment status",
+            "Employed"
+          ],
+          [
+            "Sector of employment",
+            "Engineering"
+          ],
+          [
+            "Office email",
+            "klein@lendstar.com"
+          ],
+          [
+            "Monthly income",
+            "₦500,000.00 - ₦750,000.00"
+          ],
+          [
+            "Loan Repayment",
+            "₦30,700"
+          ]
+        ],
+        "cols-4"
+      ],
+      [
+        "Socials",
+        [
+          [
+            "Twitter",
+            "@klein_good"
+          ],
+          [
+            "Facebook",
+            "Klein Good"
+          ],
+          [
+            "Instagram",
+            "@klein_good"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "Guarantor",
+        [
+          [
+            "Full name",
+            "Deena Hood"
+          ],
+          [
+            "Phone number",
+            "08120735648"
+          ],
+          [
+            "Email address",
+            "deena@gmail.com"
+          ],
+          [
+            "Relationship",
+            "Husband"
+          ]
+        ],
+        "cols-5"
+      ],
+      [
+        "",
+        [
+          [
+            "Full name",
+            "Deena Bonner"
+          ],
+          [
+            "Phone number",
+            "08123068227"
+          ],
+          [
+            "Email address",
+            "deena@outlook.com"
+          ],
+          [
+            "Relationship",
+            "Wife"
+          ]
+        ],
+        "cols-5"
+      ]
+    ]
+    }
+]
