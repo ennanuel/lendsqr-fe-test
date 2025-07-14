@@ -223,6 +223,10 @@
                 text-align: right;
                 z-index: 1;
 
+                &.active {
+                    z-index: 999
+                }
+
                 &:before {
                     content: "";
                     position: absolute;
