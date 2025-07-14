@@ -59,7 +59,7 @@ export default function UsersList({ users }: UsersListProps) {
                         <td onClick={() => navigateToUser(_id)}>
                             <span className={`user-status ${status.toLowerCase()}`}>{status.toLowerCase()}</span>
                         </td>
-                        <td className="more-column">
+                        <td className={`more-column ${_id === idOfUserOptionToShow ? 'active' : ''}`}>
                             <UserOptions
                                 id={_id}
                                 idOfUserOptionToShow={idOfUserOptionToShow}
