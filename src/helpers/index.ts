@@ -4,7 +4,7 @@ import { UserFetchResponse } from "@/types/user.types";
 
 import axios from "axios";
 
-const API_URL = 'https://emmanuel-ezema-lendsqr-fe-test.netlify.app/.netlify/functions/api';
+const API_URL = '/.netlify/functions/api';
 const MONTHS_ARRAY = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const MAX_PAGES_TO_SHOW = 6;
