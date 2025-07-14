@@ -35,7 +35,7 @@ export default function UserDetailsContainer() {
     if(loading) return <Loading />;
     else if (error) return <FetchError title="Uh Oh!" description="Could not fetch user details" />;
     return (
-        <div className="main-content">
+        <div data-testid="user-details" className="main-content">
             <section className="heading-and-actions">
                 <Heading>User Details</Heading>
                 <div className="actions">

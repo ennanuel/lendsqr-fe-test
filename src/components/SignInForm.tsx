@@ -17,7 +17,7 @@ export default function SignInForm() {
 
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
-    }
+    };
 
     return (
         <form onSubmit={signUserIn} className="form">
@@ -35,12 +35,12 @@ export default function SignInForm() {
                         includeButton
                         inputType={showPassword ? 'text' : 'password'}
                         placeholder="Password" 
-                        buttonText="SHOW" 
+                        buttonText={showPassword ? "HIDE" : "SHOW"}
                         buttonAction={togglePasswordVisibility} 
                     />
                     <a href="#" className="forgot-password-link">Forgot password?</a>
                 </div>
-                <button className="submit-button">
+                <button type="submit" name="submit" className="submit-button">
                     <span className="font-avenir">Log in</span>
                 </button>
             </div>

@@ -10,7 +10,7 @@ export default function Pagination({ pageLength, limit, total, currentPage, canN
     const pages = useMemo(() => generatePaginationPages(pageLength, currentPage), [pageLength, currentPage]);
 
     return (
-        <div className="pagination-container">
+        <div data-testid="pagination" className="pagination-container">
             <div className="fetch-options">
                 <span>Showing</span>
                 <button>

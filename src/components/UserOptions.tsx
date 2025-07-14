@@ -7,13 +7,15 @@ import { UserOptionsProps } from "@/types/index.types";
 
 
 export default function UserOptions({ openOptionsModal, handleModalClick, id, idOfUserOptionToShow, optionsContainerRef }: UserOptionsProps) {
+    if(idOfUserOptionToShow !== id) return;
+
     return (
-        <span className="button-and-options-container">
+        <div data-testid="user-options" className="button-and-options-container">
             <button onClick={() => openOptionsModal(id)} className="more-btn">
                 <Image src={moreVert} className="more-icon" alt="More icon" width={20} height={20} />
             </button>
 
-            <div onClick={handleModalClick} className={`options-container ${idOfUserOptionToShow == id ? 'show-menu' : 'hide'}`}>
+            <div onClick={handleModalClick} className="options-container">
                 <ul ref={optionsContainerRef}>
                     {
                         USER_OPTIONS.map(({ title, icon }) => (
@@ -27,6 +29,6 @@ export default function UserOptions({ openOptionsModal, handleModalClick, id, id
                     }
                 </ul>
             </div>
-        </span>
+        </div>
     )
 }

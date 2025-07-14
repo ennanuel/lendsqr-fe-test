@@ -23,8 +23,10 @@ export default function Filter({ showFilters, closeFilterDialog }: FilterProps) 
         if(clickedOutsideOfBound) closeFilterDialog();
     }
 
+    if(!showFilters) return;
+
     return (
-        <div onClick={handleFormContainerClick} className={`filters-container ${!showFilters ? 'hide' : ''}`}>
+        <div onClick={handleFormContainerClick} data-testid="filters" className="filters-container">
             <form ref={formRef} className="filters block">
                 <div className="title-and-close">
                     <h2>Filters</h2>
