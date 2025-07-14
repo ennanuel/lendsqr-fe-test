@@ -221,10 +221,7 @@
                 right: -1px;
                 top: 0;
                 text-align: right;
-
-                &:has(.show-menu) {
-                    z-index: 1;
-                }
+                z-index: 1;
 
                 &:before {
                     content: "";
@@ -261,11 +258,6 @@
                             width: 100%;
                             height: 100%;
                             display: block;
-                        }
-
-                        &.hide {
-                            opacity: 0;
-                            pointer-events: none;
                         }
 
                         ul {
@@ -331,11 +323,6 @@
         padding: 60px 15px 10px;
         width: 100%;
         z-index: 2;
-
-        &.hide {
-            opacity: 0;
-            pointer-events: none;
-        }
 
         &::before {
             content: "";
