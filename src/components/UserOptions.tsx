@@ -7,7 +7,6 @@ import { UserOptionsProps } from "@/types/index.types";
 
 
 export default function UserOptions({ openOptionsModal, handleModalClick, id, idOfUserOptionToShow, optionsContainerRef }: UserOptionsProps) {
-    if(idOfUserOptionToShow !== id) return;
 
     return (
         <div data-testid="user-options" className="button-and-options-container">
