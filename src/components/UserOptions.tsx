@@ -15,20 +15,24 @@ export default function UserOptions({ openOptionsModal, handleModalClick, id, id
                 <Image src={moreVert} className="more-icon" alt="More icon" width={20} height={20} />
             </button>
 
-            <div onClick={handleModalClick} className="options-container">
-                <ul ref={optionsContainerRef}>
-                    {
-                        USER_OPTIONS.map(({ title, icon }) => (
-                            <li key={title}>
-                                <button className="option">
-                                    <Image src={icon} alt={`${title} icon`} width={14} height={14} className="option-icon" />
-                                    <span className="font-work-sans">{title}</span>
-                                </button>
-                            </li>
-                        ))
-                    }
-                </ul>
-            </div>
+            {
+                idOfUserOptionToShow !== id ?
+                    <div onClick={handleModalClick} className="options-container">
+                            <ul ref={optionsContainerRef}>
+                                {
+                                    USER_OPTIONS.map(({ title, icon }) => (
+                                        <li key={title}>
+                                            <button className="option">
+                                                <Image src={icon} alt={`${title} icon`} width={14} height={14} className="option-icon" />
+                                                <span className="font-work-sans">{title}</span>
+                                            </button>
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                        </div> :
+                        null
+                }
         </div>
     )
 }
