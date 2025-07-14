@@ -15,7 +15,7 @@ export default function UserOptions({ openOptionsModal, handleModalClick, id, id
             </button>
 
             {
-                idOfUserOptionToShow !== id ?
+                idOfUserOptionToShow === id ?
                     <div onClick={handleModalClick} className="options-container">
                             <ul ref={optionsContainerRef}>
                                 {
